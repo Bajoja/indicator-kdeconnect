@@ -20,9 +20,7 @@ msgstr ""
 
 #: src/FirstTimeWizard.vala:50
 msgid "<b>Are you ready for your first device pairing?</b>\n\n"
-msgstr ""
-"<b>Você está preparado para o primeiro emparelhamento?</b>\n"
-"\n"
+msgstr "<b>Você está preparado para o primeiro emparelhamento?</b>\n\n"
 
 #: src/FirstTimeWizard.vala:51
 msgid "Now connect your devices using wifi connection.\n"
@@ -34,10 +32,7 @@ msgstr "Ancoragem deve funcionar também!\n"
 
 #: src/FirstTimeWizard.vala:53
 msgid "If you have Firewall running, please open port 1714-1764 for TCP and UDP\n\n"
-msgstr ""
-"Se você tem uma Firewall ativa, por favor abra as portas 1714-1764 para TCP "
-"e UDP\n"
-"\n"
+msgstr "Se você tem uma Firewall ativa, por favor abra as portas 1714-1764 para TCP e UDP\n\n"
 
 #: src/FirstTimeWizard.vala:54
 msgid "Launch KDE Connect in your Android which you can download from "
@@ -49,15 +44,11 @@ msgstr "Google Play</a>"
 
 #: src/FirstTimeWizard.vala:65
 msgid "Everytime there is a new device connected, a new indicator will appear in your panel.\n"
-msgstr ""
-"Toda as vezes que há um novo dispositivo conectado, um novo indicador vai "
-"aparecer no seu painel.\n"
+msgstr "Toda as vezes que há um novo dispositivo conectado, um novo indicador vai aparecer no seu painel.\n"
 
 #: src/FirstTimeWizard.vala:66
 msgid "There, you can pair and see its status\n\n"
-msgstr ""
-"Ali, podes emparelhar e ver o seu estado\n"
-"\n"
+msgstr "Ali, podes emparelhar e ver o seu estado\n\n"
 
 #: src/FirstTimeWizard.vala:67
 msgid "<b>Now try to pair your device</b>"
@@ -65,9 +56,7 @@ msgstr "<b>Agora tente emparelhar seu dispositivo</b>"
 
 #: src/FirstTimeWizard.vala:76
 msgid "<b>Great! your device is all set</b>\n\n"
-msgstr ""
-"<b>Ótimo! Seu dispositivo está pronto</b>\n"
-"\n"
+msgstr "<b>Ótimo! Seu dispositivo está pronto</b>\n\n"
 
 #: src/FirstTimeWizard.vala:77
 msgid "Now you can enable or disable modules on KDE Connect settings.\n"

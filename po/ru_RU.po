@@ -21,12 +21,8 @@ msgstr ""
 "Language: ru_RU\n"
 
 #: src/FirstTimeWizard.vala:50
-msgid ""
-"<b>Are you ready for your first device pairing?</b>\n"
-"\n"
-msgstr ""
-"<b>Вы готовы для первого сопряжения вашего устройства?<b>\n"
-"\n"
+msgid "<b>Are you ready for your first device pairing?</b>\n\n"
+msgstr "<b>Вы готовы для первого сопряжения вашего устройства?<b>\n\n"
 
 #: src/FirstTimeWizard.vala:51
 msgid "Now connect your devices using wifi connection.\n"
@@ -37,13 +33,8 @@ msgid "Tethering should work too!\n"
 msgstr "Точка доступа должна тоже работать!\n"
 
 #: src/FirstTimeWizard.vala:53
-msgid ""
-"If you have Firewall running, please open port 1714-1764 for TCP and UDP\n"
-"\n"
-msgstr ""
-"Если у вас используется файрвол, пожалуйста откройте порты 1714-1764 TCP "
-"и UDP\n"
-"\n"
+msgid "If you have Firewall running, please open port 1714-1764 for TCP and UDP\n\n"
+msgstr "Если у вас используется файрвол, пожалуйста откройте порты 1714-1764 TCP и UDP\n\n"
 
 #: src/FirstTimeWizard.vala:54
 msgid "Launch KDE Connect in your Android which you can download from "
@@ -54,36 +45,24 @@ msgid "Google Play</a>"
 msgstr "Google Play</a>"
 
 #: src/FirstTimeWizard.vala:65
-msgid ""
-"Everytime there is a new device connected, a new indicator will appear in "
-"your panel.\n"
-msgstr ""
-"Если новое устройство будет подключено, то появится новый индикатор на "
-"панели.\n"
+msgid "Everytime there is a new device connected, a new indicator will appear in your panel.\n"
+msgstr "Если новое устройство будет подключено, то появится новый индикатор на панели.\n"
 
 #: src/FirstTimeWizard.vala:66
-msgid ""
-"There, you can pair and see its status\n"
-"\n"
-msgstr ""
-"Затем вы можете увидеть статус сопряжения\n"
-"\n"
-"\n"
+msgid "There, you can pair and see its status\n\n"
+msgstr "Затем вы можете увидеть статус сопряжения\n\n"
 
 #: src/FirstTimeWizard.vala:67
 msgid "<b>Now try to pair your device</b>"
 msgstr "<b>Теперь попробуйте выполнить сопряжение с вашим устройством</b>"
 
 #: src/FirstTimeWizard.vala:76
-msgid ""
-"<b>Great! your device is all set</b>\n"
-"\n"
-msgstr "<b>Отлично! Ваше устройство настроено<b>\n"
+msgid "<b>Great! your device is all set</b>\n\n"
+msgstr "<b>Отлично! Ваше устройство настроено<b>\n\n"
 
 #: src/FirstTimeWizard.vala:77
 msgid "Now you can enable or disable modules on KDE Connect settings.\n"
-msgstr ""
-"Теперь вы можете включить или отключить необходимые модули в настройках KDE Connect\n"
+msgstr "Теперь вы можете включить или отключить необходимые модули в настройках KDE Connect.\n"
 
 #: src/FirstTimeWizard.vala:78
 msgid "Indicator already added to autostart.\n"

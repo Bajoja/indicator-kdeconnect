@@ -1,0 +1,189 @@
+# Translation for indicator-kdeconnect.
+# Copyright (C) 2016
+# This file is distributed under the same license as the indicator-kdeconnect package.
+# Detobel <detobel36@github.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-kdeconnect\n"
+"Report-Msgid-Bugs-To: steevenlopes@outlook.com\n"
+"POT-Creation-Date: 2017-01-29 14:09+0000\n"
+"PO-Revision-Date: 2017-01-29 14:09+0000\n"
+"Last-Translator: Detobel36 <detobel36@github.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/indicator-kde-"
+"connect/translations/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.11-dev\n"
+
+#: src/FirstTimeWizard.vala:50
+msgid ""
+"<b>Are you ready for your first device pairing?</b>\n"
+"\n"
+msgstr ""
+"<b>Êtes vous prêt pour lier votre premier appareil ?</b>\n"
+"\n"
+
+#: src/FirstTimeWizard.vala:51
+msgid "Now connect your devices using wifi connection.\n"
+msgstr "Maintenant connectez vos appareils via la connexion Wi-Fi.\n"
+
+#: src/FirstTimeWizard.vala:52
+msgid "Tethering should work too!\n"
+msgstr "Tethering devrait également fonctionner !\n"
+
+#: src/FirstTimeWizard.vala:53
+msgid ""
+"If you have Firewall running, please open port 1714-1764 for TCP and UDP\n"
+"\n"
+msgstr ""
+"Si vous avez un pare-feu, ouvrez le port 1714-1764 en TCP et UDP\n"
+"\n"
+
+#: src/FirstTimeWizard.vala:54
+msgid "Launch KDE Connect in your Android which you can download from "
+msgstr "Lancez KDE Connect sur votre Android. L'application se trouve sur le "
+
+#: src/FirstTimeWizard.vala:56
+msgid "Google Play</a>"
+msgstr "Google Play</a>"
+
+#: src/FirstTimeWizard.vala:65
+msgid ""
+"Everytime there is a new device connected, a new indicator will appear in "
+"your panel.\n"
+msgstr ""
+"Chaque fois qu'un nouvel appareil se connecte, une indication apparaît sur "
+"votre panel.\n"
+
+#: src/FirstTimeWizard.vala:66
+msgid ""
+"There, you can pair and see its status\n"
+"\n"
+msgstr ""
+"Ici, vous pouvez appareiller et voir le statut\n"
+"\n"
+
+#: src/FirstTimeWizard.vala:67
+msgid "<b>Now try to pair your device</b>"
+msgstr "<b>Essayer d'appareiller votre appareil</b>"
+
+#: src/FirstTimeWizard.vala:76
+msgid ""
+"<b>Great! your device is all set</b>\n"
+"\n"
+msgstr ""
+"<b>Super! Votre appareil est pret</b>\n"
+"\n"
+
+#: src/FirstTimeWizard.vala:77
+msgid "Now you can enable or disable modules on KDE Connect settings.\n"
+msgstr "Vous pouvez maintenant activer ou désactiver les modules via les "
+"paramètres de KDE Connect.\n"
+
+#: src/FirstTimeWizard.vala:78
+msgid "Indicator already added to autostart.\n"
+msgstr "L'indicateur à déjà été ajouté lors du démarrage automatique.\n"
+
+#: src/FirstTimeWizard.vala:79
+msgid "Enjoy!"
+msgstr "Enjoy!"
+
+#: src/KDEConnectManager.vala:119
+msgid "cannot connect to KDE Connect DBus service"
+msgstr "ne peut pas se connecter au service KDE Connect DBus"
+
+#: src/Device.vala:524
+msgid "Encryption information not found"
+msgstr "Informations de criptage non trouvées"
+
+#: src/DeviceIndicator.vala:41
+msgid "Browse device"
+msgstr "Liste des appareils"
+
+#: src/DeviceIndicator.vala:43
+msgid "Send file(s)"
+msgstr "Envoyer un/des fichier(s)"
+
+#: src/DeviceIndicator.vala:47
+msgid "Send SMS"
+msgstr "Envoyer un SMS"
+
+#: src/DeviceIndicator.vala:51
+msgid "Find my phone"
+msgstr "Trouver mon téléphone"
+
+#: src/DeviceIndicator.vala:55
+msgid "Request pairing"
+msgstr "Demande d'appariement"
+
+#: src/DeviceIndicator.vala:58
+msgid "Unpair"
+msgstr "Dissocier"
+
+#: src/DeviceIndicator.vala:100
+msgid "Select file(s)"
+msgstr "Sélectionner un/des fichier(s)"
+
+#: src/DeviceIndicator.vala:103 src/contractor/Contractor.vala:24
+#: src/Sms.vala:74
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/DeviceIndicator.vala:105
+msgid "Select"
+msgstr "Sélectionner"
+
+#: src/DeviceIndicator.vala:208
+msgid "Battery : "
+msgstr "Batterie : "
+
+#: src/DeviceIndicator.vala:210
+msgid " (charging)"
+msgstr " (en charge)"
+
+#: src/DeviceIndicator.vala:217
+msgid "Device Reachable and Trusted"
+msgstr "Appareil accèssible et sécurisé"
+
+#: src/DeviceIndicator.vala:219
+msgid "Device Reachable but Not Trusted"
+msgstr "Appareil accèssible mais non sécurisé"
+
+#: src/DeviceIndicator.vala:222
+msgid "Device Trusted but not Reachable"
+msgstr "Appareil sécurisé mais non accèssible"
+
+#: src/DeviceIndicator.vala:224
+msgid "Device Not Reachable and Not Trusted"
+msgstr "Appareil non accèssible et non sécurisé"
+
+#: src/contractor/Contractor.vala:15
+msgid "Send to"
+msgstr "Envoyer vers"
+
+#: src/contractor/Contractor.vala:25 src/Sms.vala:75
+msgid "Send"
+msgstr "Envoyer"
+
+#: src/contractor/Contractor.vala:84
+msgid "File(s) not found"
+msgstr "Fichier(s) non trouvé"
+
+#: src/contractor/Contractor.vala:143
+msgid "There's %u file(s) to be send"
+msgstr "Il y a %u fichier(s) à envoyer"
+
+#: src/Sms.vala:51
+msgid "Compose SMS"
+msgstr "Ecrire un SMS"
+
+#: src/Sms.vala:51
+msgid "Phone number: "
+msgstr "Numéro de Téléphone: "
+
+#: src/Sms.vala:51
+msgid "Message body: "
+msgstr "Message: "

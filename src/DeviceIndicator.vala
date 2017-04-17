@@ -29,7 +29,7 @@ namespace KDEConnectIndicator {
             menu = new Gtk.Menu ();
 
             indicator = new AppIndicator.Indicator (path,
-                    				    device.icon_name,
+                    				    device.icon_name + "-symbolic",
                                                     AppIndicator.IndicatorCategory.HARDWARE);
 
             name_item = new Gtk.MenuItem ();
@@ -192,7 +192,7 @@ namespace KDEConnectIndicator {
         }
 
         private void update_icon_item(){
-	    indicator.set_icon_full (device.icon_name, "");
+	    indicator.set_icon_full (device.icon_name + "-symbolic", "");
 	}
         
         private void update_battery_item () {

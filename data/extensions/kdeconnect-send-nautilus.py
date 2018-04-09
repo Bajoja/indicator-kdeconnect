@@ -11,7 +11,8 @@ gi.require_version('Notify', '0.7')
 from gi.repository import Nautilus, GObject, Notify
 from subprocess import Popen
 from os.path import isfile
-import urllib, re, gettext, locale
+from urllib.parse import unquote
+import re, gettext, locale
 
 # use of _ to set messages to be translated
 _ = gettext.gettext
@@ -39,8 +40,8 @@ class KDEConnectSendExtension(GObject.GObject, Nautilus.MenuProvider):
         with open(self.devices_file, 'r') as file:
             data = file.readline()
             while data:
-            	devices.append(data)
-             	data = file.readline()
+                devices.append(data)
+                data = file.readline()
 
         devices_a=[]
         for device in devices:
@@ -52,7 +53,7 @@ class KDEConnectSendExtension(GObject.GObject, Nautilus.MenuProvider):
     """Send a files with kdeconnect"""
     def send_files(self, menu, files, device_id, device_name):
         for file in files:
-            filename = urllib.unquote(file.get_uri()[7:])
+            filename = unquote(file.get_uri()[7:])
             Popen(["kdeconnect-cli", "-d", device_id, "--share", filename])
 
         self.setup_gettext()
@@ -67,9 +68,9 @@ class KDEConnectSendExtension(GObject.GObject, Nautilus.MenuProvider):
         args.append("kdeconnect-send")
 
         for file in files:
-            args.append(urllib.unquote(file.get_uri()[7:]))
+            args.append(unquote(file.get_uri()[7:]))
 
-        print args
+        print(args)
         Popen(args)
 
     """Send selected files"""
@@ -78,7 +79,7 @@ class KDEConnectSendExtension(GObject.GObject, Nautilus.MenuProvider):
 
     """Get files that user selected"""
     def get_file_items(self, window, files):
-	"""Ensure there are reachable devices"""
+        """Ensure there are reachable devices"""
         try:
             devices = self.get_reachable_devices()
         except Exception as e:
@@ -113,7 +114,7 @@ class KDEConnectSendExtension(GObject.GObject, Nautilus.MenuProvider):
         if len(devices) > 1:
             item = Nautilus.MenuItem(name='KDEConnectSendExtension::SendFileToMultipleDevices',
             			     label='Multiple Devices')
-	    item.connect('activate', self.send_to_multiple_devices, files)
-     	    sub_menu.append_item(item)
+            item.connect('activate', self.send_to_multiple_devices, files)
+            sub_menu.append_item(item)
 
         return menu,
